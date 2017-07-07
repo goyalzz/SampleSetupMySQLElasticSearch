@@ -27,7 +27,7 @@ Version 1.0
   cat package.json
   npm install gulp-connect --save-dev; npm install --save angular
   ```
-####How to debug spring project lint to line?####
+#### How to debug spring project lint to line? ####
 - Run Command: Below command runs dev profile with debugging ```port 5090```
 ```
 mvn spring-boot:run -Drun.arguments="--spring.profiles.active=dev" -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5090"
@@ -42,7 +42,7 @@ mvn spring-boot:run -Drun.arguments="--spring.profiles.active=dev" -Drun.jvmArgu
   * [Server Setup Guides](https://drive.google.com/open?id=0B8Nc-yTMB--QdVZQU1Z4T1B6SzQ "Ubuntu Setup Guide")
   * [Front End Directory](http://www.mediafire.com/download/7pvxv05012bxlz2/front-end.zip "Front End Directory")
 
-####How do I talk to repo admin?####
+#### How do I talk to repo admin? ####
 - Blog: http://goyalzz.blogspot.in/
 - Fb Id: https://www.facebook.com/goyalzz
 - LinkedIn: https://in.linkedin.com/in/goyalzz
