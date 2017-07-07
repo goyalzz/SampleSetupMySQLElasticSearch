@@ -11,8 +11,10 @@ Version 1.0
 - Select default java version and stable spring boot version.
 - Finish, demo api's base ready and follow the structure in this demo api commit 'Initial Commit'
 - From command line goto the project folder and run the following commands:
+  
   ```mvn clean install```
   ```mvn spring-boot:run```
+
 - If no error in running the project then api's are ready to test from local host.
 
 #### How do I get set up backend and frontend both? ####
@@ -25,7 +27,8 @@ Version 1.0
   ```npm install gulp-connect --save-dev; npm install --save angular```
 
 ####How to debug spring project lint to line?####
-- Run Command: Below command runs dev profile with debugging ```port 5090``` ```mvn spring-boot:run -Drun.arguments="--spring.profiles.active=dev" -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5090"```
+- Run Command: Below command runs dev profile with debugging ```port 5090```
+```mvn spring-boot:run -Drun.arguments="--spring.profiles.active=dev" -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5090"```
 - Goto Debug Configurations, then right click on Remote Java Application and create a new file test_debug.
 - Open test_debug set host as local host and port as ```5090```
 - Place Break points on which you want to debug.
