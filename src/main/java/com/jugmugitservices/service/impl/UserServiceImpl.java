@@ -24,6 +24,14 @@ public class UserServiceImpl implements UserService {
     user = userRepository.save(user);
     return user;
   }
+  
+  @Override
+  public User login(User user) throws EntityNotFoundException {
+    user = userRepository.findByEmail(user.getEmail());
+    if(user == null)
+      throw new EntityNotFoundException("User not found !!!");
+    return user;
+  }
 
   @Override
   public Boolean deleteUser(Long id) throws IllegalArgumentException {

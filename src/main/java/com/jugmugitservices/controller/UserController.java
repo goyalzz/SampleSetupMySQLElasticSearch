@@ -36,6 +36,12 @@ public class UserController {
   public ResponseEntity<RestResponse<User>> createUser(@RequestBody @Valid User user) {
     return RestUtils.successResponse(userService.createUser(user.getEmail(), user.getName()));
   }
+  
+  @RequestMapping(value = "/login", method = RequestMethod.POST)
+  @ResponseBody
+  public ResponseEntity<RestResponse<User>> loginUser(@RequestBody @Valid User user) throws EntityNotFoundException {
+    return RestUtils.successResponse(userService.login(user));
+  }
 
   /**
    * GET /delete --> Delete the user having the passed id.
