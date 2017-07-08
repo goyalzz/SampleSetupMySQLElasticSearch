@@ -7,6 +7,14 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+ui/node_modules/
+ui/npm-debug.log
+ui/app/css/sass/app.all.css
+ui/app/js/bin/
+src/main/resources/static/css/
+src/main/resources/static/fonts/
+src/main/resources/static/img/
+src/main/resources/static/js/
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar

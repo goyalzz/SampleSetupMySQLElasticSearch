@@ -1,0 +1,15 @@
+.dashboard.view-card.red-card {
+  max-height: 140px;
+  height: 140px;
+  background-color: $red-card;
+}
+
+.dashboard.view-card.blue-card {
+  @extend .dashboard.view-card;
+  background-color: $blue-card;
+}
+
+.dashboard.view-card.yellow-card {
+  @extend .dashboard.view-card;
+  background-color: $yellow-card;
+}

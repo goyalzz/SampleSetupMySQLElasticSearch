@@ -1,0 +1,10 @@
+.my-sass {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+
+.my-check {
+  background-color: grey;
+  @extend .my-sass;
+}

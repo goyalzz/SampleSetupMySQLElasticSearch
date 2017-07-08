@@ -1,0 +1,110 @@
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/gotham-rounded-book.ttf') format('truetype');
+}
+
+html {
+  line-height: 1.5;
+  @media only screen and (min-width: 0) {
+    font-size: 14px;
+  }
+  @media only screen and (min-width: $medium-screen) {
+    font-size: 14px;
+  }
+  @media only screen and (min-width: $large-screen) {
+    font-size: 14px;
+  }
+  font-color: $black87;
+}
+
+html, body {
+  font-family: 'Gotham', Fallback, sans-serif !important;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+// Header Styles
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+
+input {
+  font: inherit;
+}
+
+h1 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: inherit;
+}
+
+h2 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: inherit;
+}
+
+h3 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: inherit;
+}
+
+h4 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: inherit;
+}
+
+h5 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: inherit;
+}
+
+h6 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: inherit;
+}
+
+// Text Styles
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 500;
+}
+
+small {
+  font-size: 75%;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.txt-xs {
+  font-size: 10px;
+}
+
+.txt-s {
+  font-size: 12px;
+}
+
+.txt-lg {
+  font-size: 14px;
+}

@@ -10,7 +10,7 @@ public class IndexController {
   /**
    * This method is used to map the doctor panel pages
    */
-  @RequestMapping(value = {"/", ""},
+  @RequestMapping(value = {"/", "","/login","/home/**/**"},
       method = RequestMethod.GET)
   public String index() {	
     return "index";
